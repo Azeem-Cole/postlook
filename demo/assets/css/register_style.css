@@ -1,0 +1,37 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ebecf1; /*--drak purplish-->*/
+}
+
+#first{
+    text-align: right;
+    width: 50%;
+    display: inline-block;
+}
+
+#second{
+    text-align: left;
+    width: 50%;
+    display: inline-block;
+}
+
+
+input{
+    padding: 10px;
+    margin: 10px;
+    border: 0px;;
+    border-radius: 5px;
+}
+
+input:hover, input:focus{
+    background-color: #f5f1da;
+    transform: scale(1.4) translateX(30px);
+}
+
+.login_header{
+    padding: 10px;
+    text-align: left;
+}
